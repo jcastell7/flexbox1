@@ -1,0 +1,21 @@
+.padre{
+display: flex;
+width: 90%px;
+height: 500px;
+border: 2px dashed red;
+
+justify-content: space-between;
+align-items: flex-start;
+}
+.hijo{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+    margin: 20px;
+}
+.hijo:nth-child(2){
+    align-self: center;
+}
+.hijo:nth-child(3){
+    align-self: flex-end
+}
